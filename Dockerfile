@@ -1,3 +1,5 @@
+#Attempting containerization
+
 FROM Python:3.9
 COPY . /app
 WORKDIR /app
