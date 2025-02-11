@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sentiment Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        input, button { padding: 10px; margin-top: 10px; }
+        .prediction { margin-top: 20px; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Twitter Sentiment Analysis</h1>
+    <form method="POST">
+        <input type="text" name="tweet" placeholder="Enter a tweet to predict" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if sentiment %}
+        <div class="prediction">
+            <strong>Tweet:</strong> {{ tweet }} <br>
+            <strong>Predicted Sentiment:</strong> {{ sentiment }}
+        </div>
+    {% endif %}
+</body>
+</html>

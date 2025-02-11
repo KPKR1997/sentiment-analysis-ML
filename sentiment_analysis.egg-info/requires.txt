@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+scipy
+nltk
+flask
+seaborn
+dill
+matplotlib
+jinja2
+logging

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sentiment-analysis
+Version: 1.0.0
+Author: Kirshnaprakash
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: nltk
+Requires-Dist: flask
+Requires-Dist: seaborn
+Requires-Dist: dill
+Requires-Dist: matplotlib
+Requires-Dist: jinja2
+Requires-Dist: logging
