@@ -1,6 +1,0 @@
-[2025-02-06 02:06:22,305] 25 root - INFO - Data ingestion started
-[2025-02-06 02:06:43,715] 32 root - INFO - Raw data processed. Data created in artifacts folder
-[2025-02-06 02:06:43,715] 34 root - INFO - Initializing train test split
-[2025-02-06 02:06:53,339] 38 root - INFO - Created train and test data in artifacts
-[2025-02-06 02:06:53,687] 60 root - INFO - Initiating data transformation on dataframe
-[2025-02-06 06:00:31,679] 40 root - INFO - Attempting data transformation
